@@ -1,6 +1,6 @@
 {
     "name": "krorten/nanopool",
-    "description": "Cryptocompare.com api wrapper for Laravel 5.5",
+    "description": "Nanopool.org api wrapper for Laravel 5.5",
     "keywords": ["laravel", "nanopool", "bitcoin", "altcoin"] ,
     "homepage": "https://github.com/krorten/nanopool",
     "license": "MIT",
