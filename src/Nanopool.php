@@ -69,7 +69,7 @@ class Nanopool {
 			$qry = '?' . http_build_query($params);
 		}
 
-		$request = $client->request('GET', self::API . '/' . $this->type . '/' . $endpoint . $qry);
+		$request = $client->request('GET', self::API . $this->type . '/' . $endpoint . $qry);
 		$response = $request->getBody();
 
 		return json_decode($response->getContents());
