@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Krorten\\Nanopool\\" : "src"
+            "Krorten\\Nanopool\\" : "src/"
         }
     }
 }

@@ -22,7 +22,7 @@ class Nanopool {
 	 */
 	public function user($adress)
 	{
-		$this->request('user/' . $adress);
+		return $this->request('user/' . $adress);
 	}
 	/**
 	 * Get workers from current adress
@@ -31,7 +31,7 @@ class Nanopool {
 	 */
 	public function workers($adress)
 	{
-		$this->request('workers/' . $adress);
+		return $this->request('workers/' . $adress);
 	}
 	/**
 	 * Get current balance and Hashrate
@@ -40,7 +40,7 @@ class Nanopool {
 	 */
 	public function balancehs($adress)
 	{
-		$this->request('balance_hashrate/' . $adress);
+		return $this->request('balance_hashrate/' . $adress);
 	}
 	/**
 	 * Get list of paymets
@@ -49,7 +49,7 @@ class Nanopool {
 	 */
 	public function payments($adress)
 	{
-		$this->request('payments/' . $adress);
+		return $this->request('payments/' . $adress);
 	}
 	/**
 	 * Get approx earnings from current hashrate
@@ -58,7 +58,7 @@ class Nanopool {
 	 */
 	public function calculator($hashrate)
 	{
-		$this->request('approximated_earnings/' . $hashrate);
+		return $this->request('approximated_earnings/' . $hashrate);
 	}
 
 	private function request($endpoint, $params = array())
@@ -71,7 +71,6 @@ class Nanopool {
 
 		$request = $client->request('GET', self::API . $this->type . '/' . $endpoint . $qry);
 		$response = $request->getBody();
-
 		return json_decode($response->getContents());
 	}
 }
