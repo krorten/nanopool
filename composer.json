@@ -1,0 +1,23 @@
+{
+    "name": "krorten/nanopool",
+    "description": "Cryptocompare.com api wrapper for Laravel 5.5",
+    "keywords": ["laravel", "nanopool", "bitcoin", "altcoin"] ,
+    "homepage": "https://github.com/krorten/nanopool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kai Rune Orten",
+            "email": "krorten@gmail.com"
+        }        
+    ],
+    "require": {
+        "laravel/framework": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Krorten\\Nanopool\\" : "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
