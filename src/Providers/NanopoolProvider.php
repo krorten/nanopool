@@ -3,7 +3,7 @@
 namespace Krorten\Nanopool\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Nanopool\Nanopool;
+use Krorten\Nanopool\Nanopool;
 
 class NanopoolProvider extends ServiceProvider
 {
