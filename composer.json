@@ -18,6 +18,5 @@
         "psr-4" : {
             "Krorten\\Nanopool\\" : "src"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }

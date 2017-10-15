@@ -24,7 +24,7 @@ Also, add the `Nanopool` facade to the `aliases` array in your `app` configurati
 'Nanopool' => Krorten\Nanopool\Facades\NanopoolFacade::class,    
 ```
 
-See the [API documentation](https://COIN.nanopool.org/api/) for more information about the endpoints and responses. (replace coin with i.e: zec, eth, sia or etc)
+See the [API documentation](https://zec.nanopool.org/api/) for more information about the endpoints and responses. (replace coin with i.e: zec, eth, sia or etc)
 
 ## License
 
