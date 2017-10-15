@@ -25,7 +25,7 @@ class NanopoolProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('Nanopool', function () {
-            return new Nanopool\Nanopool();
+            return new Nanopool();
         });
     }
 }
