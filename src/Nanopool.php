@@ -43,6 +43,15 @@ class Nanopool {
 		return $this->request('balance_hashrate/' . $adress);
 	}
 	/**
+	 * Getting curring Hashrate in Mh/s
+	 * @param  [type] $adress [description]
+	 * @return [type]         [description]
+	 */
+	public function hashrate($adress)
+	{
+		return $this->request('hashrate/' . $adress);
+	}	
+	/**
 	 * Get list of paymets
 	 * @param  [type] $adress [description]
 	 * @return [type]         [description]
