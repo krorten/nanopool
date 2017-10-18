@@ -26,7 +26,7 @@ Also, add the `Nanopool` facade to the `aliases` array in your `app` configurati
 
 See the [API documentation](https://zec.nanopool.org/api/) for more information about the endpoints and responses. (replace coin with i.e: zec, eth, sia or etc)
 
-###Examples
+### Examples
 You need to set the type of coin before you can retreive any info.
 ```php
 //Get user(wallet addr) general summary
